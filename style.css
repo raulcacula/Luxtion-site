@@ -1202,6 +1202,43 @@ section.mc-loja a:hover{
         align-items: center;
        }
    }
+   @media screen and (min-width:900px) and (max-width:1000px){
+    footer{
+        width: 100%;
+        margin-top: 40px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-items{
+        margin-left:100px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-items a{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: -0px;
+    }
+    .sociais a{
+        width: 100%;
+        right: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-items h2{
+        margin-left: 0px;
+        color: gray;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+       }
+   }
+   
    
    @media screen and (min-width:320px) and (max-width:500px){
       section.container{
@@ -1221,7 +1258,10 @@ section.mc-loja a:hover{
       }
       .frase{
         font-size: 100%;
-      }
+        width: 100%;
+        height: 100% !important;
+        margin-top: 120px;
+    }
       .images-icon{
         margin-top: 10px !important; 
       }
@@ -1298,8 +1338,8 @@ section.mc-loja a:hover{
     }
      video{
         width: 330px;
-        height: 100vh !important;
-        height: 100%;
+        height: 100vh;
+        height: 100% !important;
     }
     #container-box .box-texto h1{
         font-size: 100%;
@@ -1524,6 +1564,9 @@ section.mc-loja a:hover{
     }
     .urus-touch h1{
       font-size: 25px;
+    }
+    .news-anos img{
+        max-width: 100%;
     }
     .texto-lambo{
       text-align: left;
